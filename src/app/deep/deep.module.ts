@@ -5,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DeepViewPage } from './deep-view.page';
+import { DeepPage } from './deep.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: DeepViewPage
+    component: DeepPage
   }
 ];
 
@@ -21,6 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [DeepViewPage]
+  declarations: [DeepPage]
 })
-export class DeepViewPageModule {}
+export class DeepPageModule {}
