@@ -8,10 +8,13 @@ const routes: Routes = [
     loadChildren: "./dashboard/dashboard.module#DashboardPageModule"
   },
   {
-    path: "addItems",
+    path: "add-items",
     loadChildren: "./add-items/add-items.module#AddItemsPageModule"
   },
-  { path: "deep", loadChildren: "./deep/deep.module#DeepPageModule" }
+  {
+    path: "deep",
+    loadChildren: "./deep/deep.module#DeepPageModule"
+  }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

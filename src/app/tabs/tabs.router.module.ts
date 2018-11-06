@@ -34,8 +34,8 @@ const routes: Routes = [
         component: DashboardPage
       },
       {
-        path: "addItems",
-        outlet: "addItems",
+        path: "add-items",
+        outlet: "add-items",
         component: AddItemsPage
       },
       {
@@ -47,7 +47,7 @@ const routes: Routes = [
   },
   {
     path: "",
-    redirectTo: "/tabs/(home:home)",
+    redirectTo: "/tabs/(dashboard:dashboard)",
     pathMatch: "full"
   }
 ];
