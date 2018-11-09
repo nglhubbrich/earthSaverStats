@@ -47,9 +47,14 @@ const routes: Routes = [
   },
   {
     path: "",
-    redirectTo: "/tabs/(dashboard:dashboard)",
+    redirectTo: "/tabs/(home:home)",
     pathMatch: "full"
   }
+  // {
+  //   path: "",
+  //   redirectTo: "/tabs/(dashboard:dashboard)",
+  //   pathMatch: "full"
+  // }
 ];
 
 @NgModule({
